@@ -1,0 +1,218 @@
+@font-face {
+	font-family: 'Comic Sans MS';
+	src: url(/fonts/Comic\ Sans\ MS.ttf);
+}
+*,
+*::before,
+*::after {
+    outline: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    
+}
+
+button {
+    
+
+}
+
+button {
+    cursor: pointer;    
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.container {
+	padding: 22px 80px;
+	margin: 0 auto;
+}
+.bg-container {
+	background-image: url('./img/Group\ 1321315712.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.header {
+	background-color: rgba(234, 233, 234, 0.5);
+	font-family: "Jost", serif;	
+}
+
+.header__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__content {
+	color: rgba(255, 255, 255, .7);
+	font-family: "Jost", serif;
+	font-weight: 700;
+	font-size: 29.53px;
+	line-height: 24.31px;
+	letter-spacing: 0%;
+}
+.header__box {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+}
+.header__menu {
+	display: flex;
+	gap: 32px;
+}
+.header__menu a {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #F2F2F2;
+	line-height: 1.2;
+}
+.header__button button{
+	font-family: "Jost", serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	padding: 15.5px 24px;
+	color: rgba(242, 242, 242, 1);
+	background-color: rgba(170, 0, 44, 1);
+	box-shadow: 0px 0px 16px 0px rgba(231, 9, 9, 0.6);
+	border-radius: 50px;
+}
+
+.main {
+	padding: 153px 0 140px;
+
+}
+
+.main__content {
+	position: relative;
+}
+.main__block {
+	padding: 34px 68px 34px 30px;
+	background-color: #fff;
+	max-width: 585px;
+	margin-bottom: 32px;
+}
+
+.main__subtitle {
+	position: absolute;
+	top: -20px;
+	left: 20px;
+	width: 130px;
+	height: 40px;
+	padding: 9px 33px;
+	background-image: url('./img/Rectangle\ 40174.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;	
+}
+
+.main__subtitle span {
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Comic Sans MS';
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 27.87px;
+	letter-spacing: 0%;
+}
+
+.main__title {
+	text-transform: uppercase;
+	font-family: 'Comic Sans MS';
+	font-weight: 400;
+	font-style: italic;
+	font-size: 45px;
+	line-height: 62.71px;
+	letter-spacing: 0%;
+	margin-bottom: 15px;
+}
+
+.main__txt {
+	font-family: 'Comic Sans MS';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21.6px;
+	letter-spacing: 0%;
+}
+
+.main__btn {
+	background-color: #D0254E;
+	color: #fff;
+	padding: 8px 25px;
+	border: 1px solid #fff;
+	font-family: Comic Sans MS;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 27.87px;
+	letter-spacing: 0%;	
+}
+
+.main__btn:hover {
+	box-shadow: 0px 0px 16px 0px rgba(231, 9, 9, 0.6);
+}
+
+.footer {
+	padding: 0;
+	background-color: #F2F2F2;
+	margin-left: -18px;
+}
+
+.footer__row {
+	display: flex;
+	gap: 370px;
+	max-width: 1142px;
+}
+.footer__left {
+}
+
+.footer__logo {
+	margin-bottom: 16px;
+}
+.footer__copyright {
+	font-family: 'Jost';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.3;
+	letter-spacing: 0px;	
+	color: #8A6E84;
+}
+.footer__right {
+	font-family: 'Jost';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19.2px;
+	letter-spacing: 0px;
+	color: #431338;
+	max-width: 32%;
+}
